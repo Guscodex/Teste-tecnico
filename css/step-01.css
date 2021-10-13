@@ -1,0 +1,331 @@
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+body::-webkit-scrollbar-thumb{
+    color:#0076DB;
+}
+.nav-item li{
+    margin-top: 15px;
+}
+.nav-bar-all{
+    visibility: hidden;
+}
+.perfil{
+    
+    visibility:visible;
+    padding-top: 50px;
+    margin: 0;
+    padding:0;
+    text-align: left;
+    width:100%;
+    justify-content: flex-end;
+}
+.header-nav{
+    display:flex;
+    padding-top: 50px;
+    
+}
+.header-nav span{
+    
+    font-family: 'Lato', sans-serif; 
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    
+}.nav-item span{
+    padding-top: 25px;
+    
+}
+.navbar{
+    
+    visibility:hidden;
+    width:15rem;
+    height:100vh;
+    position:absolute;
+    position:fixed;
+    background-color:#0076DB;
+    transition: width 200ms ease-in;
+}
+.navbar-nav{
+    
+    list-style:none;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+.nav-item:last-child{
+    margin-top: auto;
+}
+.link-text:last-child{
+    margin-top: auto;
+}
+.navbar:hover{
+    width:20rem;
+}
+.navbar:hover .link-text{
+    display:block;
+}
+.link-steps{
+    align-items: center;
+}
+.link-steps a :hover{
+color: #303030;
+}
+.link-steps a{
+    text-decoration:none;
+    align-items: center;
+}
+.link-steps h2{
+    margin-top: 15px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.link-steps h3{
+    margin-top: 100px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none; 
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.link-steps a :hover {
+    text-decoration: underline;
+}
+
+
+.container{
+    margin: 1.2em;
+    align-items: center;
+}
+.perfil p{
+
+    text-decoration: none; 
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.text h2{
+    width:90%;
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+}
+.text p{
+    width: 350px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top:15px;
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.imagem-content img{
+    width:300px;
+
+}
+.allbuttom{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display:flex;
+    justify-content:start;
+}
+.buttom-back-home:hover {
+    color:black;
+    animation-duration: 200ms;
+    background-color:#FFFFFF;
+    border: 1px solid #303030;
+
+}
+.buttom-back-home:hover a{
+    color:black;
+}
+
+.buttom-back-home{
+    width:140px;
+    height:40px;
+    margin-right: 15px;
+    background-color:   #0076DB;    
+    border-radius: 6px;
+    align-items: center;
+    text-transform: none;
+    display:flex;
+    justify-content: center
+}
+.buttom-back-home a{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+}
+.buttom-next:hover {
+    color:black;
+    animation-duration: 200ms;
+    background-color:#FFFFFF;
+    border: 1px solid #303030;
+
+}
+.buttom-next:hover a{
+    color:black;
+}
+
+.buttom-next{
+    width:140px;
+    height:40px;
+    background-color:#0076DB;
+    border-radius: 6px;
+    align-items: center;
+    text-transform: none;
+    display:flex;
+    justify-content: center;
+}
+.buttom-next a{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 768px){
+    .container{
+        margin: 0;
+    }
+    .navbar{
+        visibility:visible;
+    }
+    .nav-link h2{
+    font-family: 'Lato', sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    }
+    .nav-link a{
+        padding-top: 20px;
+    }
+    .container{
+        padding-left: 15rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .perfil{
+        padding-left: 360px;
+    }
+    .perfil p{
+        margin: 0;
+        padding:0;
+        text-align: right;
+        width:100%;
+        justify-content: flex-end;
+    }
+    .link-text{
+        margin-top:20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .text h2{
+        width:480px;
+        font-weight: 800;
+        font-size: 35px;
+    }
+    .text p{
+        width: 560px;
+        height: 45px;
+    }
+    .imagem-content{
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+    .imagem-content img {
+        
+        width: 380px;
+        height: 220px;
+    
+    }
+    .allbuttom{
+        
+        justify-content: flex-start;
+        padding-right: 260px;
+        padding-bottom: 180px;
+    }
+
+}
+@media screen and (min-width: 1440px){
+    .perfil{
+        padding-left:490px;
+    }
+    
+    .imagem-content{
+        width: 65%;
+    }
+    .imagem-content img{
+        width: 591px;
+        height: 314px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .perfil{
+        padding-left:490px;
+    }
+    .text{
+    width:60%;
+    }
+    .text h2{
+     width: 560px;   
+    font-size: 60px;
+    line-height: 60px;
+    }
+    .text p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .imagem-content{
+        width: 65%;
+    }
+    .imagem-content img{
+        width: 591px;
+        height: 314px;
+    }
+    .allbuttom{
+        width:60%;
+    }
+    .nav-item li{
+        margin-top: 25px;
+    }
+    .link-steps{
+        margin-top: 65px;
+    }
+    .link-steps h2{
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 650px){
+    .imagem-conten{
+        width: 70%;
+        display:flex;
+        flex-direction: column;
+
+    }
+    
+
+}
+@media screen and (min-width: 768px){
+    .imagem-content{
+        padding-top:115px; 
+
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .imagem-conten{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .imagem-content{
+    }
+
+}
+
+@media screen and (min-width: 1920px){
+    .imagem-content{
+    }
+
+}

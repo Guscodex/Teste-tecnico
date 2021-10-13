@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 768px){
+    .imagem-content{
+        padding-top:115px; 
+    }
+
+}
+@media screen and (min-width: 1440px){
+    .imagem-content{
+        padding-top: 180px; 
+    }
+
+}
+
+@media screen and (min-width: 1920px){
+    .imagem-content{
+        padding-top: 190px; 
+    }
+
+}
